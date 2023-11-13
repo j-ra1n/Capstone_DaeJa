@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="121dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="4dp"
+    android:background="@drawable/view_holder_background">
+
+    <ImageView
+        android:id="@+id/logoImg"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_red" />
+
+    <TextView
+        android:id="@+id/parkingNameTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="title"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/logoImg"
+        app:layout_constraintTop_toTopOf="@+id/logoImg" />
+
+    <TextView
+        android:id="@+id/parkingStateTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="잔여 주차공간 적음"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/logoImg"
+        app:layout_constraintStart_toEndOf="@+id/logoImg" />
+
+    <TextView
+        android:id="@+id/changePercentTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="93/102"
+        android:textColor="#D65745"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/parkingStateTxt"
+        app:layout_constraintStart_toEndOf="@+id/parkingStateTxt"
+        app:layout_constraintTop_toTopOf="@+id/parkingStateTxt" />
+
+    <TextView
+        android:id="@+id/parkingPriceInfoTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="기본요금(시간):"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7" />
+
+    <TextView
+        android:id="@+id/parkingPriceTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="150원/5분"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/parkingPriceInfoTxt"
+        app:layout_constraintStart_toEndOf="@+id/parkingPriceInfoTxt"
+        app:layout_constraintTop_toTopOf="@+id/parkingPriceInfoTxt" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/logoImg"
+        app:layout_constraintStart_toStartOf="@+id/logoImg"
+        app:layout_constraintTop_toBottomOf="@+id/logoImg"
+        app:srcCompat="@drawable/ic_pay" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
