@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayoutPath"
+    android:layout_width="match_parent"
+    android:layout_height="121dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="4dp"
+    android:background="@drawable/view_holder_background">
+
+    <ImageView
+        android:id="@+id/pinImg"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_red" />
+
+    <TextView
+        android:id="@+id/parkingNameTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="title"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/pinImg"
+        app:layout_constraintTop_toTopOf="@+id/pinImg" />
+
+    <TextView
+        android:id="@+id/parkingStateTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="잔여 주차공간 적음"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/pinImg"
+        app:layout_constraintStart_toEndOf="@+id/pinImg" />
+
+    <TextView
+        android:id="@+id/changePercentTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="93/102"
+        android:textColor="#D65745"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/parkingStateTxt"
+        app:layout_constraintStart_toEndOf="@+id/parkingStateTxt"
+        app:layout_constraintTop_toTopOf="@+id/parkingStateTxt" />
+
+    <TextView
+        android:id="@+id/parkingPriceInfoTxt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="기본요금(시간):"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7" />
+
+    <TextView
+        android:id="@+id/parkingPriceTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="150원/5분"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/parkingPriceInfoTxt2"
+        app:layout_constraintStart_toEndOf="@+id/parkingPriceInfoTxt2"
+        app:layout_constraintTop_toTopOf="@+id/parkingPriceInfoTxt2" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/pinImg"
+        app:layout_constraintStart_toStartOf="@+id/pinImg"
+        app:layout_constraintTop_toBottomOf="@+id/pinImg"
+        app:srcCompat="@drawable/ic_pay" />
+
+    <ImageView
+        android:id="@+id/img_findPath"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_find_path" />
+
+    <TextView
+        android:id="@+id/detailTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="상세정보 보기"
+        android:textColor="#00B8B7"
+        app:layout_constraintEnd_toEndOf="@+id/img_findPath"
+        app:layout_constraintStart_toStartOf="@+id/img_findPath"
+        app:layout_constraintTop_toBottomOf="@+id/img_findPath" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

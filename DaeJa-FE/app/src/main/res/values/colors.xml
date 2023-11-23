@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="daeja_main">#69AAFA</color>
+    <color name="daeja_sub">#002E51</color>
+    <color name="daeja_1">#C8DCEE</color>
+    <color name="daeja_2">#3F66E3</color>
+    <color name="edittext_main">#707070</color>
+    <color name="icon">#9494C8</color>
+    <color name="menu_tint">#ffffff</color>
+    <color name="search_tint">#75F8DAA6</color>
+
+    <color name="sky_blue_1">#D4E7ED</color>
+    <color name="sky_blue_2">#C8DCEE</color>
+    <color name="sky_blue_3">#B5D0E5</color>
+    <color name="sky_blue_4">#A9C3DE</color>
+    <color name="sky_blue_5">#94C5DC</color>
+    <color name="sky_blue_6">#74B2D0</color>
+
+    <color name="dodger_blue">#42adf8</color>
+    <color name="sky_blue">#72c3ef</color>
+    <color name="thistle">#e8dfd6</color>
+    <color name="sienna">#996244</color>
+    <color name="tan">#ddbea7</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FFD65745</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="red">#FFD65745</color>
+    <color name="yellow">#FFF7E682</color>
+    <color name="green">#97B9AD</color>
+
+</resources>
