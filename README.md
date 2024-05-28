@@ -1,5 +1,5 @@
 # CapstoneProject-Daeja
-2023-2 캡스톤 프로젝트
+
  
 ## Intro
 <img width="200" alt="Screenshot 2023-11-20 at 11 05 02 PM" src="https://github.com/j-ra1n/Capstone_DaeJa/assets/118893707/6f031a8f-3d91-4e8a-94cc-f3c1fb1b6bf9">
